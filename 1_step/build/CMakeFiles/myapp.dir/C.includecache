@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leedokyu/workspace/make_tutorial/1_step/bar.c
+bar.h
+/home/leedokyu/workspace/make_tutorial/1_step/bar.h
+
+/home/leedokyu/workspace/make_tutorial/1_step/bar.h
+stdio.h
+-
+
+/home/leedokyu/workspace/make_tutorial/1_step/foo.c
+foo.h
+/home/leedokyu/workspace/make_tutorial/1_step/foo.h
+
+/home/leedokyu/workspace/make_tutorial/1_step/foo.h
+stdio.h
+-
+
+/home/leedokyu/workspace/make_tutorial/1_step/main.c
+stdio.h
+-
+foo.h
+/home/leedokyu/workspace/make_tutorial/1_step/foo.h
+bar.h
+/home/leedokyu/workspace/make_tutorial/1_step/bar.h
+
